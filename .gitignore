@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+
+# Large model files (use GitHub Releases)
+yoloe-26s-seg.pt
+yoloe-26s-seg.onnx
+mobileclip2_b.ts
+*.pt
+
+# ACUITY intermediate files
+yoloe_26s_trash/yoloe_26s_trash.data
+yoloe_26s_trash/yoloe_26s_trash.json
+yoloe_26s_trash/wksp/
+yoloe_26s_trash/*.quantize
+yoloe_26s_trash/calib_dummy.jpg
+yoloe_26s_trash/pegasus_*.sh
+
+# Docker workspace
+docker_workspace/
+
+# Output (use GitHub Releases)
+output/*.nb
+output/*.onnx
+
+# OS
+.DS_Store
+Thumbs.db
