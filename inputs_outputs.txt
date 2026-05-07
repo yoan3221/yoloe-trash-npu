@@ -1,0 +1,8 @@
+# ACUITY 模型輸入/輸出節點設定
+# 已根據實際 ONNX 模型驗證 (yoloe_26s_trash.onnx):
+#   Input : images  (1, 3, 640, 640)
+#   Output: output0 (1, 300, 38)  - 檢測結果 (bbox+conf+classes)
+#   Output: output1 (1, 32, 160, 160) - Mask prototypes
+
+--inputs images:1,3,640,640
+--outputs output0,output1
