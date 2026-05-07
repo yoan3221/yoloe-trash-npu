@@ -1,0 +1,4 @@
+# 模型輸入 Normalization 參數
+# YOLOE/Ultralytics 預設: 直接輸入 RGB 0-255, 內部除以 255
+# ACUITY 設定 (不做 mean, scale=1/255):
+0.0 0.0 0.0 0.00392157 0.00392157 0.00392157
