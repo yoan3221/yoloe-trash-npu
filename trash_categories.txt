@@ -1,0 +1,51 @@
+# 常見垃圾類別 (Common Garbage/Litter Categories)
+# 用於 YOLOE 文本提示檢測
+
+# 塑膠類
+plastic_bottle
+plastic_bag
+plastic_cup
+plastic_wrapper
+styrofoam
+plastic_container
+plastic_straw
+
+# 金屬類
+can
+aluminum_can
+tin_can
+metal_scrap
+metal_cap
+
+# 玻璃類
+glass_bottle
+glass_jar
+broken_glass
+
+# 紙類
+paper
+cardboard
+paper_cup
+newspaper
+carton
+paper_bag
+
+# 食物殘渣
+food_waste
+fruit_peel
+food_packaging
+
+# 有害垃圾
+battery
+cigarette_butt
+light_bulb
+
+# 其他
+bottle_cap
+snack_wrapper
+chip_bag
+disposable_plate
+disposable_chopsticks
+tissue
+mask
+glove
